@@ -13,9 +13,7 @@ Do you hate using the console to empty and then delete versioned S3 Buckets?  Ne
 
 1. [Install and configure awscli](https://docs.aws.amazon.com/cli/latest/userguide/installing.html)
 
-### Install
-
-1.    
+1. Clone and Install
 
     ```sh
     git clone https://github.com/tantona/delete-bucket.git && cd ./delete-bucket
@@ -28,7 +26,7 @@ Do you hate using the console to empty and then delete versioned S3 Buckets?  Ne
     delete-bucket --name foobar
     ```
 
-### Usage
+## Usage
 
     ```sh
     usage: delete-bucket [<flags>] <bucket name>
