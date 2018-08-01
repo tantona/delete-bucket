@@ -13,11 +13,10 @@ Do you hate using the console to empty and then delete versioned S3 Buckets?  Ne
 
 1. [Install and configure awscli](https://docs.aws.amazon.com/cli/latest/userguide/installing.html)
 
-1. Clone and Install
+1. Install
 
     ```sh
-    git clone https://github.com/tantona/delete-bucket.git && cd ./delete-bucket
-    go install
+    go get github.com/tantona/delete-bucket
     ```
 
 1. Delete a bucket!
