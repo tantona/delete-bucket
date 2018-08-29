@@ -15,7 +15,7 @@ import (
 func main() {
 	var (
 		verbose    = kingpin.Flag("verbose", "enable verbose logging").Default("false").Short('v').Bool()
-		profile    = kingpin.Flag("profile", "aws profile name").Short('p').Default("default").String()
+		profile    = kingpin.Flag("profile", "aws profile name").Short('p').Default("").String()
 		region     = kingpin.Flag("region", "aws region").Short('r').Default("us-east-1").String()
 		bucketName = kingpin.Arg("bucket name", "name of s3 bucket").Required().String()
 	)
