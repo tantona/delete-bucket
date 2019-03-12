@@ -27,16 +27,15 @@ Do you hate using the console to empty and then delete versioned S3 Buckets?  Ne
 
 ## Usage
 
-    ```sh
-    usage: delete-bucket [<flags>] <bucket name>
+```sh
+usage: delete-bucket [<flags>] <bucket name>
 
-    Flags:
-        --help                Show context-sensitive help (also try --help-long and --help-man).
-    -v, --verbose             enable verbose logging
-    -p, --profile="default"   aws profile name
-    -r, --region="us-east-1"  aws region
+Flags:
+    --help                Show context-sensitive help (also try --help-long and --help-man).
+-v, --verbose             enable verbose logging
+-p, --profile="default"   aws profile name
+-r, --region="us-east-1"  aws region
 
-    Args:
-    <bucket name>  name of s3 bucket
-    ```
-
+Args:
+<bucket name>  name of s3 bucket
+```
